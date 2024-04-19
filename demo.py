@@ -16,7 +16,6 @@ def parse_args():
   parser = argparse.ArgumentParser(description='Inference code to LIPINC models')
   parser.add_argument('--input_path', type=str, help='This path should be an external path point to an video file')
   parser.add_argument('--output_path', type=str, help='This path should be an external path point to result folder',default = "")
-  parser.add_argument('--info_path', type=str, help='This path should be an external path point to method_info.json', default = 'Media/deepfake-o-meter/method_info.json')
   parser.add_argument('--d', action="store_true", help='Use this argument when input path is a folder')
   parser.add_argument('--device', type=str, default = 'cuda', help='Set GPU or CPU as first priority')
   parser.add_argument('--checkpoint_path', type=str, help='Name of saved checkpoint to load weights from', default= "checkpoints/FakeAv.hdf5")
