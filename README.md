@@ -37,5 +37,5 @@ The demo video is saved (by default) in `{input_video_name}_demo.mp4`.
 ```
 
 # Acknowledgements
-This work is supported by the US De-fense Advanced Research Projects Agency (DARPA) Se-mantic Forensic (SemaFor) program, under Contract No.HR001120C0123, and the Center for Identification Technol-ogy Research and the National Science Foundation underGrant No. 1822190. The views, opinions and/or findings ex-pressed are those of the author and should not be interpretedas representing the official views or policies of the Depart-ment of Defense, the National Science Foundation, or theU.S. Government.
+This work is supported by the US Defense Advanced Research Projects Agency (DARPA) Semantic Forensic (SemaFor) program, under Contract No.HR001120C0123, and the Center for Identification Technology Research and the National Science Foundation underGrant No. 1822190. The views, opinions and/or findings expressed are those of the author and should not be interpretedas representing the official views or policies of the Department of Defense, the National Science Foundation, or the U.S. Government.
 
