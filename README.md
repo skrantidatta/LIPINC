@@ -17,8 +17,6 @@ A lip-syncing deepfake is a digitally manipulated video in which a person's lip 
 
 # Inference: Lip-syncing videos detection using the pre-trained models 
 
-python demo.py --input_path {input_video_path} --output_path {output_path}
-
 The input_video should be in mp4 format :
 ```
 python demo.py --input_path {input_video_path} --output_path {output_path}
