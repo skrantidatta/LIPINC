@@ -21,7 +21,7 @@ The input_video should be in mp4 format :
 ```
 python demo.py --input_path {input_video_path} --output_path {output_path}
 ```
-The demo video is saved (by default) in `{input_video_name}_demo.mp4`.
+The demo video is saved (by default) as `{input_video_name}_demo.mp4`.
 
 
 # Citation
