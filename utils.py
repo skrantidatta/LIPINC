@@ -335,7 +335,7 @@ def get_color_structure_frames(n_frames,path):
     length_error = True
     return length_error,[],[],[],[],[]
   
-  cv2.imwrite(os.path.join('/content/','face.png'), face_array[0]) 
+  # cv2.imwrite(os.path.join('/content/','face.png'), face_array[0]) 
   Local_frames , Global_frames, l_id,g_id = find_LGframes(n_frames,face_array,predictor)  #find local and global frames
 
   combined_frames = np.concatenate((Local_frames,Global_frames))
