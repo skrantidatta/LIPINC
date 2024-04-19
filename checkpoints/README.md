@@ -1,1 +1,1 @@
-Download the weight from this link
+# Download the weights here
