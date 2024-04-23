@@ -14,7 +14,8 @@ A lip-syncing deepfake is a digitally manipulated video in which a person's lip 
 - Install necessary packages using `pip install -r requirements.txt`.
 - Download the dlib’s pre-trained facial landmark detector from [here](https://drive.google.com/file/d/1-Uc2rH1tiKZEh9NwmgmBFZT_6xDvGBSD/view?usp=sharing) and put it in the same folder as demo.py.
 - Download LipInc model weights from [here](https://drive.google.com/file/d/1V6eUVVHaLs_QxdqKl8HHhkNTTj9Uaz_L/view?usp=sharing) and place it under ./checkpoints folder
-- The input video should have **only 1 face**.
+- The input video should have the face of **only 1 subject** in the entire video.
+- The input video should have the **1 face per frame**.
 
 # Inference: Lip-syncing videos detection using the pre-trained models 
 
